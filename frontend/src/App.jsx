@@ -1,4 +1,6 @@
 import { useState } from "react";
+const API_URL = import.meta.env.VITE_API_URL;
+
 
 function App() {
   const [question, setQuestion] = useState("");
@@ -12,7 +14,7 @@ function App() {
     setAnswer("");
 
     try {
-      const res = await fetch("http://localhost:5000/api/chat", {
+      const res = await fetch(`${API_URL}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),

@@ -8,6 +8,8 @@ router.post("/", async (req, res) => {
     return res.json({ answer: "No question provided." });
   }
 
+  // Fallback response used when AI provider is not configured
+
   if (!process.env.GEMINI_API_KEY) {
     return res.json({
       answer: `This is a mock AI response for: "${question}". Add GEMINI_API_KEY to enable real AI.`

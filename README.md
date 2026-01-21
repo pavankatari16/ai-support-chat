@@ -7,8 +7,8 @@ The system supports admin-managed content and is built with a clean separation b
 
 ## 🔗 Live Demo
 
-* **Frontend:** `<PASTE YOUR FRONTEND RENDER URL HERE>`
-* **Backend API:** `<PASTE YOUR BACKEND RENDER URL HERE>`
+* **Frontend:** `https://ai-support-chat-frontend-84gm.onrender.com/`
+* **Backend API:** `https://ai-support-chat-backend.onrender.com/`
 
 ---
 

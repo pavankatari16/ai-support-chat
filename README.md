@@ -1,9 +1,3 @@
-Perfect. Below is a **clean, professional, human-written README** you can **copy-paste directly**.
-This fits **assignment evaluation**, **GitHub reviewers**, and **interviewers**.
-No AI giveaways, no fluff.
-
----
-
 # AI-Powered Customer Support Chat Platform
 
 A full-stack customer support chat application where users can interact with an AI assistant to get intelligent, context-aware responses.
